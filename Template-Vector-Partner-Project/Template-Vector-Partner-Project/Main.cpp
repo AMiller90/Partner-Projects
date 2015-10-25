@@ -8,6 +8,8 @@
 
 #include<iostream>
 #include "Vector3.h"
+#include "Vector2.h"
+using namespace std;
 
 
 //Assignment : Math...
@@ -30,6 +32,12 @@ int main()
 	Vector3<int> Vec2(2, 2, 2);
 	Vector3<int> Vec3;
 	Vector3<int> Vec4;
+
+	//Vec2 objects
+	Vector2<int> Vec12(11, 21);
+	Vector2<int> Vec22(34, 69);
+	Vector2<int> Vec32;
+	Vector2<int> Vec42;
 
 	//Add Vectors
 	Vec4 = Vec3.Add(Vec1, Vec2);
@@ -56,6 +64,29 @@ int main()
 	Vec4 = Vec3.Cross(Vec1, Vec2);
 	std::cout << "Cross Product is: " << "(" << Vec4.x << "," << Vec4.y << "," << Vec4.z << ")" << "\n";
 
+	cout << "2D Vectors: "<< endl;
+
+	//Add Vectors
+	Vec42 = Vec32.Adding(Vec12, Vec22);
+	cout << "(" << Vec42.x << "," << Vec42.y << ")\n";
+	//Subtract Vectors
+	Vec42 = Vec32.Subtracting(Vec12, Vec22);
+	cout << "(" << Vec42.x << "," << Vec42.y << ")\n";
+	//Multiply Vectors
+	Vec42 = Vec32.Multiplication(Vec12, Vec22);
+	cout << "(" << Vec42.x << "," << Vec42.y << ")\n";
+	//Magnitude of Vector
+	Mag = Vec32.Magnitude(Vec12);
+	cout << "Magnitude is: " << Mag << endl;
+	//Magnitude of Vector
+	Mag = Vec32.Magnitude(Vec22);
+	cout << "Magnitude is: " << Mag << endl;
+	//Normalise Vector
+	Vec42 = Vec32.Normalising(Vec12);
+	cout << "(" << Vec42.x << "," << Vec42.y << ")\n";
+	//Dot Product of Vectors
+	Dot = Vec32.DotProduct(Vec12, Vec22);
+	cout << "Dot Product is: " << Dot << endl;
 
 	system("Pause");
 	return 0;

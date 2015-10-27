@@ -26,7 +26,7 @@ int main()
 	//Variable for holding dot product
 	int Dot;
 
-	std::cout << "\nVec3: \n";
+	std::cout << "3D Vectors:\n\n";
 	//Vec3 objects
 	Vector3<int> Vec1(5, 6, 7);
 	Vector3<int> Vec2(2, 2, 2);
@@ -41,13 +41,13 @@ int main()
 
 	//Add Vectors
 	Vec4 = Vec3.Add(Vec1, Vec2);
-	std::cout << "(" << Vec4.x << "," << Vec4.y << "," << Vec4.z << ")\n";
+	std::cout << "Add: " << "(" << Vec4.x << "," << Vec4.y << "," << Vec4.z << ")\n";
 	//Subtract Vectors
 	Vec4 = Vec3.Sub(Vec1, Vec2);
-	std::cout << "(" << Vec4.x << "," << Vec4.y << "," << Vec4.z << ")\n";
+	std::cout << "Subtract: " << "(" << Vec4.x << "," << Vec4.y << "," << Vec4.z << ")\n";
 	//Multiply Vectors
 	Vec4 = Vec3.Multiply(Vec1, Vec2);
-	std::cout << "(" << Vec4.x << "," << Vec4.y << "," << Vec4.z << ")\n";
+	std::cout << "Multiply: " << "(" << Vec4.x << "," << Vec4.y << "," << Vec4.z << ")\n";
 	//Magnitude of Vector
 	Mag = Vec3.Mag(Vec1);
 	std::cout << "Magnitude is: " << Mag << std::endl;
@@ -56,7 +56,7 @@ int main()
 	std::cout << "Magnitude is: " << Mag << std::endl;
 	//Normalise Vector
 	Vec4 = Vec3.Normalise(Vec1);
-	std::cout << "(" << Vec4.x << "," << Vec4.y << "," << Vec4.z << ")\n";
+	std::cout << "Normalised Vector is: " << "(" << Vec4.x << "," << Vec4.y << "," << Vec4.z << ")\n";
 	//Dot Product of Vectors
 	Dot = Vec3.Dot(Vec1, Vec2);
 	std::cout << "Dot Product is: " << Dot << std::endl;
@@ -64,7 +64,7 @@ int main()
 	Vec4 = Vec3.Cross(Vec1, Vec2);
 	std::cout << "Cross Product is: " << "(" << Vec4.x << "," << Vec4.y << "," << Vec4.z << ")" << "\n";
 
-	cout << "2D Vectors: "<< endl;
+	cout << "\n-----------------------------------\n2D Vectors:\n "<< endl;
 
 	//Add Vectors
 	Vec42 = Vec32.Adding(Vec12, Vec22);

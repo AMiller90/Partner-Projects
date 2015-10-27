@@ -129,7 +129,7 @@ Vector3<T> Vector3<T>::Normalise(Vector3 &a)
 	//Variable used to store squared values of passed in vector values
 	T Asquared;
 	//Variable to hold square root value
-	float Asqrt;
+	T Asqrt;
 
 	//Square each coordinate and all together then store into new variable
 	Asquared = (a.x * a.x) + (a.y * a.y) + (a.z * a.z);

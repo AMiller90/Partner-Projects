@@ -40,13 +40,13 @@ int main()
 	Vector2<int> Vec42;
 
 	//Add Vectors
-	Vec4 = Vec3.Add(Vec1, Vec2);
+	Vec4 = Vec1 + Vec2;
 	std::cout << "Add: " << "(" << Vec4.x << "," << Vec4.y << "," << Vec4.z << ")\n";
 	//Subtract Vectors
-	Vec4 = Vec3.Sub(Vec1, Vec2);
+	Vec4 = Vec1 - Vec2;
 	std::cout << "Subtract: " << "(" << Vec4.x << "," << Vec4.y << "," << Vec4.z << ")\n";
 	//Multiply Vectors
-	Vec4 = Vec3.Multiply(Vec1, Vec2);
+	Vec4 = Vec1 * Vec2;
 	std::cout << "Multiply: " << "(" << Vec4.x << "," << Vec4.y << "," << Vec4.z << ")\n";
 	//Magnitude of Vector
 	Mag = Vec3.Mag(Vec1);

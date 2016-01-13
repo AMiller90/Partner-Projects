@@ -1,29 +1,18 @@
-﻿Build started 10/27/2015 11:27:29 AM.
-     1>Project "C:\Users\Andrew.Miller\Desktop\Partner-Projects\Template-Vector-Partner-Project\Template-Vector-Partner-Project\Template-Vector-Partner-Project.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
-         Main.cpp
-     1>c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector3.h(117): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-         c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector3.h(110): note: while compiling class template member function 'float Vector3<int>::Mag(Vector3<int> &)'
-         c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\main.cpp(52): note: see reference to function template instantiation 'float Vector3<int>::Mag(Vector3<int> &)' being compiled
-         c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\main.cpp(31): note: see reference to class template instantiation 'Vector3<int>' being compiled
-     1>c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector3.h(138): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-         c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector3.h(127): note: while compiling class template member function 'Vector3<int> Vector3<int>::Normalise(Vector3<int> &)'
-         c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\main.cpp(58): note: see reference to function template instantiation 'Vector3<int> Vector3<int>::Normalise(Vector3<int> &)' being compiled
-     1>c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector2.h(87): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-         c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector2.h(83): note: while compiling class template member function 'float Vector2<int>::Magnitude(Vector2<int> &)'
-         c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\main.cpp(79): note: see reference to function template instantiation 'float Vector2<int>::Magnitude(Vector2<int> &)' being compiled
-         c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\main.cpp(37): note: see reference to class template instantiation 'Vector2<int>' being compiled
-     1>c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector2.h(99): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-         c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector2.h(94): note: while compiling class template member function 'Vector2<int> Vector2<int>::Normalising(Vector2<int> &)'
-         c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\main.cpp(85): note: see reference to function template instantiation 'Vector2<int> Vector2<int>::Normalising(Vector2<int> &)' being compiled
-     1>c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector2.h(100): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-     1>c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector2.h(101): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Andrew.Miller\Desktop\Partner-Projects\Template-Vector-Partner-Project\Debug\Template-Vector-Partner-Project.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Andrew.Miller\Desktop\Partner-Projects\Template-Vector-Partner-Project\Debug\Template-Vector-Partner-Project.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Andrew.Miller\Desktop\Partner-Projects\Template-Vector-Partner-Project\Debug\Template-Vector-Partner-Project.lib" /MACHINE:X86 Debug\Main.obj
-         Template-Vector-Partner-Project.vcxproj -> C:\Users\Andrew.Miller\Desktop\Partner-Projects\Template-Vector-Partner-Project\Debug\Template-Vector-Partner-Project.exe
-     1>Done Building Project "C:\Users\Andrew.Miller\Desktop\Partner-Projects\Template-Vector-Partner-Project\Template-Vector-Partner-Project\Template-Vector-Partner-Project.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.64
+﻿  Main.cpp
+c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector3.h(111): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector3.h(104): note: while compiling class template member function 'float Vector3<int>::Mag(Vector3<int> &)'
+  c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\main.cpp(52): note: see reference to function template instantiation 'float Vector3<int>::Mag(Vector3<int> &)' being compiled
+  c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\main.cpp(31): note: see reference to class template instantiation 'Vector3<int>' being compiled
+c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector3.h(132): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector3.h(121): note: while compiling class template member function 'Vector3<int> Vector3<int>::Normalise(Vector3<int> &)'
+  c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\main.cpp(58): note: see reference to function template instantiation 'Vector3<int> Vector3<int>::Normalise(Vector3<int> &)' being compiled
+c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector2.h(87): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector2.h(83): note: while compiling class template member function 'float Vector2<int>::Magnitude(Vector2<int> &)'
+  c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\main.cpp(79): note: see reference to function template instantiation 'float Vector2<int>::Magnitude(Vector2<int> &)' being compiled
+  c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\main.cpp(37): note: see reference to class template instantiation 'Vector2<int>' being compiled
+c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector2.h(99): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector2.h(94): note: while compiling class template member function 'Vector2<int> Vector2<int>::Normalising(Vector2<int> &)'
+  c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\main.cpp(85): note: see reference to function template instantiation 'Vector2<int> Vector2<int>::Normalising(Vector2<int> &)' being compiled
+c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector2.h(100): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\andrew.miller\desktop\partner-projects\template-vector-partner-project\template-vector-partner-project\vector2.h(101): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Template-Vector-Partner-Project.vcxproj -> C:\Users\Andrew.Miller\Desktop\Partner-Projects\Template-Vector-Partner-Project\Debug\Template-Vector-Partner-Project.exe
